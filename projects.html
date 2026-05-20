@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Game Developer portfolio — Browse all projects.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects — Game Developer Portfolio">
+  <meta property="og:description" content="Browse all game development projects.">
+  <meta property="og:image" content="assets/images/og-image.svg">
+  <meta property="og:url" content="https://emersonsiddev.github.io/projects.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Projects — Game Developer Portfolio">
+  <meta name="twitter:description" content="Browse all game development projects.">
+  <meta name="twitter:image" content="assets/images/og-image.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <title>Projects — Game Developer Portfolio</title>
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        &lt;<span class="text-accent">Dev</span>/&gt;
+      </a>
+
+      <nav class="nav">
+        <ul class="nav__list" id="nav-list">
+          <li><a href="index.html" class="nav__link" data-i18n="nav.home">Home</a></li>
+          <li><a href="projects.html" class="nav__link" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="about.html" class="nav__link" data-i18n="nav.about">About</a></li>
+        </ul>
+
+        <div class="nav__controls">
+          <button class="toggle-btn" id="theme-toggle" data-i18n-aria="theme.toggle" aria-label="Toggle theme">
+            <i class="fa-solid fa-sun"></i>
+          </button>
+          <button class="toggle-btn lang-toggle" id="lang-toggle" data-i18n-aria="lang.toggle" aria-label="Switch language">EN</button>
+        </div>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== PAGE HEADER ========== -->
+  <div class="page-header">
+    <div class="container">
+      <a href="index.html" class="back-link">
+        <i class="fa-solid fa-arrow-left"></i>
+        <span data-i18n="projects.back">Back to Home</span>
+      </a>
+      <h1 class="page-header__title" data-i18n="sections.all_projects">All Projects</h1>
+    </div>
+  </div>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section" style="padding-top: 1rem;">
+    <div class="container">
+      <!-- Filters -->
+      <div class="filter" id="project-filters">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Project Grid -->
+      <div class="grid grid--3" id="all-projects">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">
+        &copy; <span id="copyright-year">2026</span> EmersonSidDev. <span data-i18n="footer.copyright">All rights reserved.</span>
+      </p>
+      <div class="social" id="footer-social">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/theme.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/data-loader.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

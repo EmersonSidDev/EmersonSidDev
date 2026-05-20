@@ -1,0 +1,146 @@
+[
+  {
+    "id": "neon-horizon",
+    "titulo": {
+      "en": "Neon Horizon",
+      "pt": "Neon Horizon"
+    },
+    "descricao": {
+      "en": "An open-world cyberpunk RPG featuring dynamic faction systems, procedural missions, and real-time combat with modular weapon crafting.",
+      "pt": "Um RPG cyberpunk de mundo aberto com sistemas dinâmicos de facções, missões procedurais e combate em tempo real com criação modular de armas."
+    },
+    "imagem": "assets/images/project-neon-horizon-thumb.svg",
+    "banner": "assets/images/project-neon-horizon-banner.svg",
+    "video_url": "",
+    "tags": ["Open World", "RPG", "Cyberpunk"],
+    "tecnologias": ["Unreal Engine 5", "C++", "Blueprints"],
+    "genero": "rpg",
+    "destaque": true
+  },
+  {
+    "id": "void-protocol",
+    "titulo": {
+      "en": "Void Protocol",
+      "pt": "Void Protocol"
+    },
+    "descricao": {
+      "en": "A tactical squad-based shooter with AI-driven enemy behavior, destructible environments, and competitive multiplayer modes.",
+      "pt": "Um shooter tático baseado em esquadrão com comportamento de inimigos por IA, ambientes destrutíveis e modos multiplayer competitivos."
+    },
+    "imagem": "assets/images/project-void-protocol-thumb.svg",
+    "banner": "assets/images/project-void-protocol-banner.svg",
+    "video_url": "",
+    "tags": ["Tactical", "Shooter", "Multiplayer"],
+    "tecnologias": ["Unreal Engine 5", "C++", "Dedicated Servers"],
+    "genero": "shooter",
+    "destaque": true
+  },
+  {
+    "id": "echoes-of-aether",
+    "titulo": {
+      "en": "Echoes of Aether",
+      "pt": "Ecos de Aether"
+    },
+    "descricao": {
+      "en": "A narrative-driven action-adventure with puzzle-based exploration, handcrafted levels, and a branching dialogue system.",
+      "pt": "Uma aventura de ação narrativa com exploração baseada em puzzles, fases feitas à mão e um sistema de diálogos ramificados."
+    },
+    "imagem": "assets/images/project-echoes-of-aether-thumb.svg",
+    "banner": "assets/images/project-echoes-of-aether-banner.svg",
+    "video_url": "",
+    "tags": ["Action-Adventure", "Narrative", "Puzzle"],
+    "tecnologias": ["Unity", "C#", "Ink"],
+    "genero": "adventure",
+    "destaque": true
+  },
+  {
+    "id": "grid-runners",
+    "titulo": {
+      "en": "Grid Runners",
+      "pt": "Grid Runners"
+    },
+    "descricao": {
+      "en": "A fast-paced multiplayer racing game with procedurally generated tracks, vehicle customization, and physics-based gameplay.",
+      "pt": "Um jogo de corrida multiplayer em ritmo acelerado com pistas geradas proceduralmente, customização de veículos e gameplay baseada em física."
+    },
+    "imagem": "assets/images/project-grid-runners-thumb.svg",
+    "banner": "assets/images/project-grid-runners-banner.svg",
+    "video_url": "",
+    "tags": ["Racing", "Multiplayer", "Procedural"],
+    "tecnologias": ["Unreal Engine 5", "C++", "Chaos Physics"],
+    "genero": "racing",
+    "destaque": true
+  },
+  {
+    "id": "shadow-engine",
+    "titulo": {
+      "en": "Shadow Engine",
+      "pt": "Shadow Engine"
+    },
+    "descricao": {
+      "en": "A custom 2D game engine built from scratch featuring an ECS architecture, a sprite-based renderer, and an integrated level editor.",
+      "pt": "Um engine 2D personalizado construído do zero com arquitetura ECS, renderizador baseado em sprites e editor de níveis integrado."
+    },
+    "imagem": "assets/images/project-shadow-engine-thumb.svg",
+    "banner": "assets/images/project-shadow-engine-banner.svg",
+    "video_url": "",
+    "tags": ["Engine", "Tools", "2D"],
+    "tecnologias": ["C++", "OpenGL", "ImGui"],
+    "genero": "tools",
+    "destaque": true
+  },
+  {
+    "id": "crimson-descent",
+    "titulo": {
+      "en": "Crimson Descent",
+      "pt": "Descenso Carmesim"
+    },
+    "descricao": {
+      "en": "A souls-like action RPG with stamina-based combat, interconnected world design, and a deep lore system delivered through environmental storytelling.",
+      "pt": "Um RPG de ação souls-like com combate baseado em stamina, design de mundo interconectado e sistema profundo de lore por narrativa ambiental."
+    },
+    "imagem": "assets/images/project-crimson-descent-thumb.svg",
+    "banner": "assets/images/project-crimson-descent-banner.svg",
+    "video_url": "",
+    "tags": ["Souls-like", "Action RPG", "Dark Fantasy"],
+    "tecnologias": ["Unreal Engine 5", "C++", "Niagara"],
+    "genero": "rpg",
+    "destaque": true
+  },
+  {
+    "id": "pulse-vr",
+    "titulo": {
+      "en": "Pulse VR",
+      "pt": "Pulse VR"
+    },
+    "descricao": {
+      "en": "A VR rhythm game that combines music visualization with hand-tracking interactions, featuring custom beat mapping tools.",
+      "pt": "Um jogo de ritmo VR que combina visualização musical com interações de rastreamento de mãos, com ferramentas de mapeamento de beats."
+    },
+    "imagem": "assets/images/project-pulse-vr-thumb.svg",
+    "banner": "assets/images/project-pulse-vr-banner.svg",
+    "video_url": "",
+    "tags": ["VR", "Rhythm", "Music"],
+    "tecnologias": ["Unity", "C#", "OpenXR"],
+    "genero": "vr",
+    "destaque": false
+  },
+  {
+    "id": "hex-tactics",
+    "titulo": {
+      "en": "Hex Tactics",
+      "pt": "Hex Tactics"
+    },
+    "descricao": {
+      "en": "A turn-based strategy game on hexagonal grids with unit progression, terrain effects, and AI opponents using minimax algorithms.",
+      "pt": "Um jogo de estratégia por turnos em grids hexagonais com progressão de unidades, efeitos de terreno e oponentes IA usando algoritmos minimax."
+    },
+    "imagem": "assets/images/project-hex-tactics-thumb.svg",
+    "banner": "assets/images/project-hex-tactics-banner.svg",
+    "video_url": "",
+    "tags": ["Strategy", "Turn-based", "Hex Grid"],
+    "tecnologias": ["Godot", "GDScript", "Shaders"],
+    "genero": "strategy",
+    "destaque": false
+  }
+]

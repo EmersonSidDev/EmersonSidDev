@@ -1,0 +1,98 @@
+/* ============================================
+   CSS Custom Properties — Dark & Light Themes
+   ============================================ */
+
+:root,
+[data-theme="dark"] {
+  /* --- Background --- */
+  --bg-primary: #0A0E27;
+  --bg-secondary: #1A1F3A;
+  --bg-tertiary: #121733;
+  --bg-card: #161B36;
+  --bg-header: rgba(10, 14, 39, 0.85);
+
+  /* --- Text --- */
+  --text-primary: #E0E0E0;
+  --text-secondary: #A0A4B8;
+  --text-muted: #6B6F82;
+
+  /* --- Accent --- */
+  --accent-primary: #00FF88;
+  --accent-primary-rgb: 0, 255, 136;
+  --accent-secondary: #FF006E;
+  --accent-secondary-rgb: 255, 0, 110;
+
+  /* --- UI Elements --- */
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color-hover: rgba(0, 255, 136, 0.3);
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --overlay: rgba(10, 14, 39, 0.7);
+
+  /* --- Components --- */
+  --btn-primary-bg: #00FF88;
+  --btn-primary-text: #0A0E27;
+  --btn-secondary-bg: transparent;
+  --btn-secondary-text: #00FF88;
+  --btn-secondary-border: #00FF88;
+
+  --badge-bg: rgba(0, 255, 136, 0.1);
+  --badge-text: #00FF88;
+  --badge-border: rgba(0, 255, 136, 0.2);
+
+  --progress-bg: #1A1F3A;
+  --progress-fill: #00FF88;
+
+  --filter-bg: transparent;
+  --filter-active-bg: #00FF88;
+  --filter-active-text: #0A0E27;
+
+  --scrollbar-track: #0A0E27;
+  --scrollbar-thumb: #1A1F3A;
+}
+
+[data-theme="light"] {
+  /* --- Background --- */
+  --bg-primary: #F5F6FA;
+  --bg-secondary: #FFFFFF;
+  --bg-tertiary: #EBEDF5;
+  --bg-card: #FFFFFF;
+  --bg-header: rgba(245, 246, 250, 0.9);
+
+  /* --- Text --- */
+  --text-primary: #1A1F3A;
+  --text-secondary: #4A4E68;
+  --text-muted: #8A8EA2;
+
+  /* --- Accent --- */
+  --accent-primary: #00C96A;
+  --accent-primary-rgb: 0, 201, 106;
+  --accent-secondary: #E00060;
+  --accent-secondary-rgb: 224, 0, 96;
+
+  /* --- UI Elements --- */
+  --border-color: rgba(0, 0, 0, 0.08);
+  --border-color-hover: rgba(0, 201, 106, 0.3);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --overlay: rgba(245, 246, 250, 0.7);
+
+  /* --- Components --- */
+  --btn-primary-bg: #00C96A;
+  --btn-primary-text: #FFFFFF;
+  --btn-secondary-bg: transparent;
+  --btn-secondary-text: #00C96A;
+  --btn-secondary-border: #00C96A;
+
+  --badge-bg: rgba(0, 201, 106, 0.1);
+  --badge-text: #00895A;
+  --badge-border: rgba(0, 201, 106, 0.25);
+
+  --progress-bg: #E0E2EC;
+  --progress-fill: #00C96A;
+
+  --filter-bg: transparent;
+  --filter-active-bg: #00C96A;
+  --filter-active-text: #FFFFFF;
+
+  --scrollbar-track: #F5F6FA;
+  --scrollbar-thumb: #D0D2DC;
+}

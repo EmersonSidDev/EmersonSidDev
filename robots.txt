@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://emersonsiddev.github.io/sitemap.xml

@@ -1,0 +1,52 @@
+{
+  "bio": {
+    "en": "I'm a Game Developer with a passion for building immersive gameplay systems and interactive experiences for PC and Console. With a strong foundation in systems programming and game engine architecture, I focus on creating performant, scalable, and engaging game mechanics. From real-time combat systems to procedural generation algorithms, I enjoy tackling the technical challenges that bring virtual worlds to life. I believe great games are built at the intersection of solid engineering and creative design.",
+    "pt": "Sou um Game Developer apaixonado por construir sistemas de gameplay imersivos e experiências interativas para PC e Console. Com uma base sólida em programação de sistemas e arquitetura de engines, foco em criar mecânicas de jogo performáticas, escaláveis e envolventes. De sistemas de combate em tempo real a algoritmos de geração procedural, gosto de enfrentar os desafios técnicos que dão vida a mundos virtuais. Acredito que grandes jogos são construídos na interseção entre engenharia sólida e design criativo."
+  },
+  "experiencias": [
+    {
+      "cargo": { "en": "Senior Gameplay Programmer", "pt": "Programador de Gameplay Sênior" },
+      "empresa": { "en": "Nexus Interactive Studios", "pt": "Nexus Interactive Studios" },
+      "periodo": "2022 — Present",
+      "descricao": {
+        "en": "Lead development of core gameplay systems including combat, AI, and progression. Optimized game performance for multi-platform deployment on PC and current-gen consoles.",
+        "pt": "Liderança no desenvolvimento de sistemas core de gameplay incluindo combate, IA e progressão. Otimização de performance para deploy multiplataforma em PC e consoles de geração atual."
+      }
+    },
+    {
+      "cargo": { "en": "Game Programmer", "pt": "Programador de Jogos" },
+      "empresa": { "en": "Pixel Forge Games", "pt": "Pixel Forge Games" },
+      "periodo": "2019 — 2022",
+      "descricao": {
+        "en": "Developed gameplay mechanics, UI systems, and networking code for multiplayer titles. Collaborated closely with designers to prototype and iterate on game features.",
+        "pt": "Desenvolvimento de mecânicas de gameplay, sistemas de UI e código de rede para títulos multiplayer. Colaboração próxima com designers para prototipagem e iteração de features."
+      }
+    },
+    {
+      "cargo": { "en": "Junior Developer", "pt": "Desenvolvedor Júnior" },
+      "empresa": { "en": "Indie Collective", "pt": "Indie Collective" },
+      "periodo": "2017 — 2019",
+      "descricao": {
+        "en": "Contributed to multiple indie game projects, handling gameplay scripting, bug fixing, and implementing game design specifications in Unity and Unreal Engine.",
+        "pt": "Contribuição em múltiplos projetos indie, incluindo scripting de gameplay, correção de bugs e implementação de especificações de game design em Unity e Unreal Engine."
+      }
+    }
+  ],
+  "educacao": [
+    {
+      "curso": { "en": "B.Sc. Computer Science — Game Development Focus", "pt": "Bacharelado em Ciência da Computação — Foco em Desenvolvimento de Jogos" },
+      "instituicao": { "en": "University of Technology", "pt": "Universidade de Tecnologia" },
+      "periodo": "2013 — 2017"
+    },
+    {
+      "curso": { "en": "Unreal Engine Professional Certification", "pt": "Certificação Profissional Unreal Engine" },
+      "instituicao": { "en": "Epic Games", "pt": "Epic Games" },
+      "periodo": "2021"
+    },
+    {
+      "curso": { "en": "Advanced C++ for Game Programming", "pt": "C++ Avançado para Programação de Jogos" },
+      "instituicao": { "en": "Game Dev Academy", "pt": "Game Dev Academy" },
+      "periodo": "2020"
+    }
+  ]
+}

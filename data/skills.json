@@ -1,0 +1,34 @@
+{
+  "categorias": [
+    {
+      "nome": { "en": "Engines", "pt": "Engines" },
+      "itens": [
+        { "nome": "Unreal Engine 5", "icone": "fa-solid fa-cube", "nivel": 90 },
+        { "nome": "Unity", "icone": "fa-brands fa-unity", "nivel": 80 },
+        { "nome": "Godot", "icone": "fa-solid fa-gamepad", "nivel": 65 },
+        { "nome": "Custom Engine", "icone": "fa-solid fa-gear", "nivel": 70 }
+      ]
+    },
+    {
+      "nome": { "en": "Languages", "pt": "Linguagens" },
+      "itens": [
+        { "nome": "C++", "icone": "fa-solid fa-code", "nivel": 92 },
+        { "nome": "C#", "icone": "fa-solid fa-hashtag", "nivel": 85 },
+        { "nome": "GDScript", "icone": "fa-solid fa-scroll", "nivel": 60 },
+        { "nome": "HLSL / GLSL", "icone": "fa-solid fa-palette", "nivel": 55 },
+        { "nome": "Python", "icone": "fa-brands fa-python", "nivel": 70 }
+      ]
+    },
+    {
+      "nome": { "en": "Tools", "pt": "Ferramentas" },
+      "itens": [
+        { "nome": "Git", "icone": "fa-brands fa-git-alt", "nivel": 88 },
+        { "nome": "Perforce", "icone": "fa-solid fa-code-branch", "nivel": 75 },
+        { "nome": "Jira", "icone": "fa-brands fa-jira", "nivel": 80 },
+        { "nome": "Blender", "icone": "fa-solid fa-cube", "nivel": 50 },
+        { "nome": "Visual Studio", "icone": "fa-solid fa-laptop-code", "nivel": 90 },
+        { "nome": "Rider", "icone": "fa-solid fa-terminal", "nivel": 78 }
+      ]
+    }
+  ]
+}

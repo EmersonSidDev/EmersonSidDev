@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Page not found">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <title>404 — Page Not Found</title>
+
+  <!-- Google Fonts (inline for self-contained) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Self-contained styles for 404 reliability */
+    :root, [data-theme="dark"] {
+      --bg: #0A0E27;
+      --bg2: #1A1F3A;
+      --text: #E0E0E0;
+      --text2: #A0A4B8;
+      --accent: #00FF88;
+      --accent-rgb: 0, 255, 136;
+      --magenta: #FF006E;
+    }
+    [data-theme="light"] {
+      --bg: #F5F6FA;
+      --bg2: #FFFFFF;
+      --text: #1A1F3A;
+      --text2: #4A4E68;
+      --accent: #00C96A;
+      --accent-rgb: 0, 201, 106;
+      --magenta: #E00060;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      transition: background 0.3s, color 0.3s;
+    }
+    .error__code {
+      font-size: clamp(6rem, 20vw, 12rem);
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1;
+      text-shadow: 0 0 40px rgba(var(--accent-rgb), 0.3);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .error__title {
+      font-size: clamp(1.2rem, 3vw, 2rem);
+      margin: 0.5rem 0;
+      color: var(--text);
+    }
+    .error__message {
+      font-size: 1rem;
+      color: var(--text2);
+      max-width: 400px;
+      margin: 1rem auto 2rem;
+      line-height: 1.6;
+    }
+    .error__link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.75rem;
+      background: var(--accent);
+      color: var(--bg);
+      border-radius: 4px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.3s;
+    }
+    .error__link:hover {
+      background: transparent;
+      color: var(--accent);
+      box-shadow: 0 0 20px rgba(var(--accent-rgb), 0.3);
+      outline: 2px solid var(--accent);
+    }
+    .error__glitch {
+      position: relative;
+    }
+    .error__glitch::before,
+    .error__glitch::after {
+      content: attr(data-text);
+      position: absolute;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+    }
+    .error__glitch::before {
+      top: -2px;
+      color: var(--magenta);
+      clip-path: inset(0 0 60% 0);
+      animation: glitch-top 2s infinite;
+    }
+    .error__glitch::after {
+      bottom: -2px;
+      color: var(--accent);
+      clip-path: inset(60% 0 0 0);
+      animation: glitch-bottom 2s infinite;
+    }
+    @keyframes glitch-top {
+      0%, 100% { transform: translateX(0); }
+      20% { transform: translateX(-3px); }
+      40% { transform: translateX(3px); }
+      60% { transform: translateX(-1px); }
+    }
+    @keyframes glitch-bottom {
+      0%, 100% { transform: translateX(0); }
+      20% { transform: translateX(3px); }
+      40% { transform: translateX(-3px); }
+      60% { transform: translateX(1px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="error__code error__glitch" data-text="404" id="error-code">404</div>
+  <h1 class="error__title" id="error-title">Page Not Found</h1>
+  <p class="error__message" id="error-message">The page you're looking for doesn't exist or has been moved.</p>
+  <a href="/index.html" class="error__link" id="error-link">&#8592; Return to Home</a>
+
+  <script>
+    // Apply stored theme
+    (function() {
+      const theme = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+
+      // Apply stored language
+      const lang = localStorage.getItem('lang') || 'en';
+      const strings = {
+        en: {
+          title: 'Page Not Found',
+          message: "The page you're looking for doesn't exist or has been moved.",
+          link: '\u2190 Return to Home'
+        },
+        pt: {
+          title: 'Página Não Encontrada',
+          message: 'A página que você procura não existe ou foi movida.',
+          link: '\u2190 Voltar ao Início'
+        }
+      };
+      const s = strings[lang] || strings.en;
+      document.getElementById('error-title').textContent = s.title;
+      document.getElementById('error-message').textContent = s.message;
+      document.getElementById('error-link').textContent = s.link;
+    })();
+  </script>
+</body>
+</html>

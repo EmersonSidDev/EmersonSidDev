@@ -1,0 +1,20 @@
+{
+  "title": {
+    "en": "Game Developer & Systems Programmer",
+    "pt": "Game Developer & Programador de Sistemas"
+  },
+  "subtitle": {
+    "en": "Crafting immersive gameplay experiences for PC & Console. Specialized in systems programming, gameplay mechanics, and interactive design.",
+    "pt": "Criando experiências de gameplay imersivas para PC e Console. Especializado em programação de sistemas, mecânicas de gameplay e design interativo."
+  },
+  "cta_primary": {
+    "text": { "en": "View Projects", "pt": "Ver Projetos" },
+    "href": "#portfolio"
+  },
+  "cta_secondary": {
+    "text": { "en": "About Me", "pt": "Sobre Mim" },
+    "href": "about.html"
+  },
+  "video_url": "",
+  "background_image": "assets/images/hero-bg.svg"
+}

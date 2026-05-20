@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "description": "Portfólio de Game Developer — Especializado em programação de sistemas e mecânicas de gameplay para PC e Console."
+  },
+  "nav": {
+    "home": "Início",
+    "projects": "Projetos",
+    "about": "Sobre"
+  },
+  "hero": {
+    "cta_primary": "Ver Projetos",
+    "cta_secondary": "Sobre Mim"
+  },
+  "sections": {
+    "showreel": "Showreel",
+    "portfolio": "Projetos em Destaque",
+    "skills": "Skills & Tecnologias",
+    "experience": "Experiência",
+    "education": "Educação",
+    "skills_detailed": "Visão Geral de Skills",
+    "all_projects": "Todos os Projetos"
+  },
+  "projects": {
+    "view_all": "Ver Todos os Projetos",
+    "filter_all": "Todos",
+    "back": "Voltar ao Início",
+    "genres": {
+      "rpg": "RPG",
+      "shooter": "Shooter",
+      "adventure": "Aventura",
+      "racing": "Corrida",
+      "tools": "Ferramentas",
+      "vr": "VR",
+      "strategy": "Estratégia"
+    }
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "subtitle": "Game Developer & Programador de Sistemas",
+    "download_cv": "Baixar Currículo (PDF)",
+    "profile_alt": "Foto de perfil"
+  },
+  "footer": {
+    "copyright": "Todos os direitos reservados."
+  },
+  "error404": {
+    "title": "404",
+    "subtitle": "Página Não Encontrada",
+    "message": "A página que você procura não existe ou foi movida.",
+    "back": "Voltar ao Início"
+  },
+  "theme": {
+    "toggle": "Alternar tema"
+  },
+  "lang": {
+    "toggle": "Trocar idioma"
+  }
+}

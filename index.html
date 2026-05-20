@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Game Developer portfolio — Specialized in systems programming and gameplay mechanics for PC & Console.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Game Developer Portfolio">
+  <meta property="og:description" content="Crafting immersive gameplay experiences for PC & Console.">
+  <meta property="og:image" content="assets/images/og-image.svg">
+  <meta property="og:url" content="https://emersonsiddev.github.io/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Game Developer Portfolio">
+  <meta name="twitter:description" content="Crafting immersive gameplay experiences for PC & Console.">
+  <meta name="twitter:image" content="assets/images/og-image.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <title>Game Developer Portfolio</title>
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        &lt;<span class="text-accent">Dev</span>/&gt;
+      </a>
+
+      <nav class="nav">
+        <ul class="nav__list" id="nav-list">
+          <li><a href="index.html" class="nav__link" data-i18n="nav.home">Home</a></li>
+          <li><a href="projects.html" class="nav__link" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="about.html" class="nav__link" data-i18n="nav.about">About</a></li>
+        </ul>
+
+        <div class="nav__controls">
+          <button class="toggle-btn" id="theme-toggle" data-i18n-aria="theme.toggle" aria-label="Toggle theme">
+            <i class="fa-solid fa-sun"></i>
+          </button>
+          <button class="toggle-btn lang-toggle" id="lang-toggle" data-i18n-aria="lang.toggle" aria-label="Switch language">EN</button>
+        </div>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="hero__bg hero__bg--gradient"></div>
+    <div class="container">
+      <div class="hero__content animate-in">
+        <h1 class="hero__title" id="hero-title">Game Developer & Systems Programmer</h1>
+        <p class="hero__subtitle" id="hero-subtitle">Crafting immersive gameplay experiences for PC & Console.</p>
+        <div class="hero__actions">
+          <a href="#portfolio" class="btn btn--primary" data-i18n="hero.cta_primary">View Projects</a>
+          <a href="about.html" class="btn btn--secondary" data-i18n="hero.cta_secondary">About Me</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ========== SHOWREEL ========== -->
+  <section class="section" id="showreel">
+    <div class="container">
+      <h2 class="section__title" data-i18n="sections.showreel">Showreel</h2>
+      <div class="showreel__wrapper" id="showreel-content">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO ========== -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <h2 class="section__title" data-i18n="sections.portfolio">Featured Projects</h2>
+      <div class="grid grid--3" id="featured-projects">
+        <!-- Rendered by JS -->
+      </div>
+      <div class="text-center" style="margin-top: 2.5rem;">
+        <a href="projects.html" class="btn btn--secondary" data-i18n="projects.view_all">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section__title" data-i18n="sections.skills">Skills & Technologies</h2>
+      <div class="skills-grid" id="skills-summary">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">
+        &copy; <span id="copyright-year">2026</span> EmersonSidDev. <span data-i18n="footer.copyright">All rights reserved.</span>
+      </p>
+      <div class="social" id="footer-social">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/theme.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/data-loader.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

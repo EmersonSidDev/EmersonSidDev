@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "description": "Game Developer portfolio — Specialized in systems programming and gameplay mechanics for PC & Console."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About"
+  },
+  "hero": {
+    "cta_primary": "View Projects",
+    "cta_secondary": "About Me"
+  },
+  "sections": {
+    "showreel": "Showreel",
+    "portfolio": "Featured Projects",
+    "skills": "Skills & Technologies",
+    "experience": "Experience",
+    "education": "Education",
+    "skills_detailed": "Skills Overview",
+    "all_projects": "All Projects"
+  },
+  "projects": {
+    "view_all": "View All Projects",
+    "filter_all": "All",
+    "back": "Back to Home",
+    "genres": {
+      "rpg": "RPG",
+      "shooter": "Shooter",
+      "adventure": "Adventure",
+      "racing": "Racing",
+      "tools": "Tools",
+      "vr": "VR",
+      "strategy": "Strategy"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Game Developer & Systems Programmer",
+    "download_cv": "Download Resume (PDF)",
+    "profile_alt": "Profile photo"
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  },
+  "error404": {
+    "title": "404",
+    "subtitle": "Page Not Found",
+    "message": "The page you're looking for doesn't exist or has been moved.",
+    "back": "Return to Home"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  },
+  "lang": {
+    "toggle": "Switch language"
+  }
+}
