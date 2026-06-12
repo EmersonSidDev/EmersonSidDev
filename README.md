@@ -6,7 +6,7 @@ Portfolio and resume website for GitHub Pages, focused on game development.
 
 ### Demo
 
-- Live site: https://emersonsiddev.github.io/
+- Live site: https://emersonsiddev.github.io/EmersonSidDev/
 
 ### About this project
 
